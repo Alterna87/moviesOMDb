@@ -12,7 +12,7 @@ input.addEventListener('keypress', (event) => {
   };
 
 });
-
+//
 const renderInfo = response => {
 let info = document.getElementById('info');
 info.innerHTML = '';
@@ -25,7 +25,6 @@ for (let i = 0; i < search.length; i++) {
   } else {
     images = '';
   }
-  console.log(search[i]);
   info.innerHTML += `
   <div class="col-md-4">
   <div class='card text-white bg-dark' style='width: 18rem;'>
