@@ -1,0 +1,26 @@
+{
+  "name": "omdb-api",
+  "version": "1.0.0",
+  "description": "API de peliculas",
+  "main": "data.js",
+  "scripts": {
+    "test-node": "nyc mocha ./test/headless.js",
+    "test": "npm run test-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Alterna87@bitbucket.org/nerdale/omdb-api.git"
+  },
+  "keywords": [
+    "API",
+    "practica",
+    "Laboratoria"
+  ],
+  "author": "Francisca Velueta",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nerdale/omdb-api#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
